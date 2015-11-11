@@ -85,7 +85,7 @@ div.heada_postion{
 }
 
 ul.headpo_content{
-	display:table; margin:auto;
+	display:block; margin:0 auto;
 }
 ul.headpo_content li{
 	width:191px; height:100px;

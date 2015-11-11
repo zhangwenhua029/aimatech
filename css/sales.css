@@ -11,6 +11,11 @@
 	margin:0 auto;
 	
 }
+.tupian{
+	width:430px;
+	height: 220px;
+	background-image: url("../images/sales/sales1.png");
+}
 .topright{
 	width: 430px;
 	height: 600px;
