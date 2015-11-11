@@ -1,0 +1,181 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta charset="UTF-8">		
+		<title>爱玛电动车官方网站</title>
+		<link rel="shortcut icon" href="images/header/aima.png" type="image/x-icon">		
+		<link rel= "stylesheet" href = "css/public.css" />
+		<link rel= "stylesheet" href = "css/header_footer.css" />
+		<link rel= "stylesheet" href = "css/product.css" />
+		<link rel= "stylesheet" href = "css/join.css" />
+		<script type="text/javascript" src= "js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" language="javascript" src="js/layout.js" charset="utf-8"></script>
+	</head>
+		<!-- 搜索透明开始 -->
+		<body>
+		<div id="wrap" class="body_transpt"></div>
+		<!-- 搜索透明结束 -->
+		<!-- 头部开始 -->
+		<div id="wrap" class= "header"></div>
+		<!-- 头部结束 -->
+		<div id="wrap" class="fixed">
+			<div id="container">
+				<div class="join_left">加盟流程图</div>
+				<div class="join_right">加盟热线：022-59596970</div>
+			</div>		
+		</div>
+		
+		<div id="wrap" class="hotsales">
+		<div class="jointop">
+		     <div class="jointop">
+		           <span class="jointop1">火速加盟，开启财富之路！</span>
+		           <span class="jointop2">爱就马上行动！</span>
+		     </div>
+
+		</div>
+		<div class="joinmain">
+		     <div class="joinwrap">
+		             <div class="joinwrap1 jointext" id="joinwraph1" style="line-height: 80px;
+	                       text-align: center;">
+		                <h2 id="text1">1</h2>
+		                <span id="text2">与爱玛销售人员联系</span>
+		     </div>
+		             <div class="joinwrap2">
+		             </div>
+		             <table class="joinwrap3">
+		             <tr></tr>
+		             </table>
+		             <div class="joinwrap4">
+		                 <div class="joinwrap41 jointext">
+		                     
+		                         <h2 class="textright">2</h2>
+		                         <span class="textleft">加盟人如实填写《加盟爱玛意向表》</span>
+		             	     
+		                 </div>
+		                 <div class="joinwrap42 jointext">
+		                     <h2>3</h2>
+		                     <span>申请人相关资料(附在上述申请表后）</span>
+		                 </div>
+		                 <div class="joinwrap43 jointext">
+		                     <h2>4</h2>
+		                     <span id="joinspan4">申请人提供资金实力证明</span>
+		                 </div>
+
+
+		             </div>
+		             <div class="joinwrap5">
+		                     
+		             </div>
+		             <div class="joinwrap6 jointext">
+		                     <h2>5</h2>
+		                     <span id="joinspan5">预选店面的位置图、平面图、所有街道照片、店面门头及店内照片</span>
+		             </div>
+		             <div class="joinwrap7">
+		                     
+		             </div>
+		             <div class="joinwrap8">
+		                     
+		             </div>
+		             <div class="joinwrap9">
+		                 <div class="joinwrap91 jointext"> 
+		                         <h2>6</h2>
+		                         <span>销售代表整理审查并签署意见报片区经理</span>
+		                 </div>
+		                 <div class="joinwrap92 jointext">
+		                             <h2>7</h2>
+		                             <span>片区经理审查并在《加盟爱玛意向表》上签署意见</span>
+		                 </div>
+		             </div>
+		             <div class="joinwrap10">
+		             </div>
+		             <div class="joinwrap11">
+		             </div>
+		             <div class="joinwrap12">
+		             </div>
+		             <div class="joinwrap13 jointext">
+		                     <span id="joinspan13">审核未通过</span>
+		             </div>
+		             <div class="joinwrap14 jointext">
+		                     <h2>8</h2>
+		                     <span>批准开店后，申请方按统一形象标准装修店面</span>
+		             </div>
+		             <div class="joinwrap15">
+		             </div>
+		             <div class="joinwrap16">
+		             </div>
+		             <div class="joinwrap17">
+		                     
+
+		                  <div class="joinwrap171 jointext">
+		                  <h2>9</h2>
+		                     <span>店面装修后提供照片由市场部验收</span>
+		                  </div>
+		                  <div class="joinwrap172 jointext">
+		                     <h2>10</h2>
+		                     <span id="joinspan172">签署《爱玛电单车经销协议书》颁发授权牌</span>
+		                  </div>
+		             </div>
+
+
+
+
+
+		</div>
+		
+			<div	id ="contenttop"	class="products_bottom">
+				<p>&lt; 
+					<span>服务</span>
+					&lt;
+					<span>加盟流程图</span>
+					</p>
+			</div>
+			<div class="clear"></div>					
+		</div>
+		
+		
+			</div>
+			<div class="clear"></div>					
+		</div>
+		
+		<!-- 尾部开始 -->
+		<div id = "wrap" class="foote"></div>
+		<!-- 尾部结束 -->
+		<script type="text/javascript" src= "js/banner.js" ></script>  
+		<script type="text/javascript" src= "js/public.js" ></script>
+		<script>
+$(function(){
+	$("body").bind('mousewheel',function(event){
+		var wheeldelta = event.originalEvent.wheelDelta;
+		var $fixed=$("div.fixed");
+		var $header=$("div.header");
+		if(wheeldelta<0){
+			$fixed.show();
+			$fixed.css("top","0px");
+			$header.removeClass("fix");
+			console.log(1);
+		}else{
+			console.log(2);
+			$fixed.hide();
+			$header.addClass("fix");
+		}
+		/*
+		console.log(this.scrollTop);
+	var q =this.scrollTop;
+	if(q<10){
+		$fixed.css("top","60px");
+	}else{
+		$fixed.css("top","0px");
+	}*/
+	})
+	
+	
+	
+	
+	
+})
+				
+			
+		</script>
+		
+	</body>
+</html>

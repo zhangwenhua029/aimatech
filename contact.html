@@ -1,0 +1,147 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta charset="UTF-8">		
+		<title>爱玛电动车官方网站</title>
+		<link rel="shortcut icon" href="images/header/aima.png" type="image/x-icon">		
+		<link rel= "stylesheet" href = "css/public.css" />
+		<link rel= "stylesheet" href = "css/header_footer.css" />
+		<link rel= "stylesheet" href = "css/product.css" />
+		<link rel= "stylesheet" href = "css/contact.css" />
+		<script type="text/javascript" src= "js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" language="javascript" src="js/layout.js" charset="utf-8"></script>
+	</head>
+		<!-- 搜索透明开始 -->
+		<body>
+		<div id="wrap" class="body_transpt"></div>
+		<!-- 搜索透明结束 -->
+		<!-- 头部开始 -->
+		<div id="wrap" class= "header"></div>
+		<!-- 头部结束 -->
+		<div id="wrap" class="fixed">
+			<div id="container">
+				<div class="wrap_left product_left">联系我们</div>
+			</div>		
+		</div>
+		
+		<div id="wrap" class="hotsales">
+		<div class="contacttop">
+		     <div class="top">
+		           <span class="top1">I LOVE i do</span>
+		           <span class="top2">爱就马上行动</span>
+		     </div>
+
+		</div>
+		<div class="contactbody">
+		    
+		          <div class="mainleft">
+		          <span>全国客户服务热线
+                        <li>4008828890（免长话费)</li><br><br>
+
+                       爱玛两轮电动车全国质量监督
+                       <li> 邮箱：zhiliangxinxi@aimatech.com</li><br><br>
+
+                        经销商加盟
+                        <li>爱玛运动自行车<li>
+                        <li>电话：022-59598969 </li>
+                        <li>电话：022-59598918</li><br><br>
+
+                       爱玛两轮电动车
+                       <li>电话：022-59596990</li>
+                       <li>电话：022-59596989</li><br><br>
+
+                       人才加盟 
+                       <li>电话：022-59596872</li>
+                       <li>邮箱：linailin@aimatech.com</li></span>
+		          </div>
+		          <div class="mainright">
+		          <span>
+		          	爱玛科技股份有限公司（所属机构）
+
+                         <li><br>爱玛科技股份有限公司</li>
+                         <li>电话：022-59591111</li>
+                       <li>地址： 天津市静海经济开发区南区爱玛路5号</li>	
+<li>邮编: 301600</li><br><br>
+
+<li>天津爱玛体育用品有限公司</li>
+<li>电话：022-59598969 022-59598918 </li>
+<li>网址：http://www.aimabikes.com</li>
+<li>地址：天津市静海经济开发区南区泰安道10号</li>	
+<li>邮编: 301600 </li><br><br>
+
+<li>爱玛南方有限公司</li>
+<li>电话：0510-68556666</li>
+<li>地址：江苏省无锡市锡山区羊尖工业园区</li>
+<li>邮编: 214107</li> <br><br>
+
+<li>江苏爱玛车业科技有限公司 </li>
+<li>电话：0510-68556666	</li>
+<li>地址：江苏省锡山区羊尖镇工业园区</li>
+<li>邮编: 214107 </li><br>
+
+<li>广东爱玛车业科技有限公司</li>
+<li>电话：0769-89181111	</li>
+<li>地址： 广东省东莞市东坑镇骏达路井美村第五区一号</li>
+<li>邮编: 523451 </li><br><br>
+
+<li>浙江爱玛车业科技有限公司 </li>
+<li>电话：0576-89178173</li>
+<li>地址：浙江省台州市黄岩新前街道牟村</li>
+		          </span>
+		          </div>
+		     <div class="clear"></div>
+		</div>
+
+
+		<p id ="contenttop" class="products_bottom">本图所示商品外观，配置及颜色仅供参考，销售请以实物为准。</p>
+			<div	id ="contenttop"	class="products_bottom">
+				<p>&lt; 
+					<span>联系我们</span>
+					
+				</p>
+			</div>
+			<div class="clear"></div>					
+		</div>
+		
+		<!-- 尾部开始 -->
+		<div id = "wrap" class="foote"></div>
+		<!-- 尾部结束 -->
+		<script type="text/javascript" src= "js/banner.js" ></script>  
+		<script type="text/javascript" src= "js/public.js" ></script>
+		<script>
+$(function(){
+	$("body").bind('mousewheel',function(event){
+		var wheeldelta = event.originalEvent.wheelDelta;
+		var $fixed=$("div.fixed");
+		var $header=$("div.header");
+		if(wheeldelta<0){
+			$fixed.show();
+			$fixed.css("top","0px");
+			$header.removeClass("fix");
+			console.log(1);
+		}else{
+			console.log(2);
+			$fixed.hide();
+			$header.addClass("fix");
+		}
+		/*
+		console.log(this.scrollTop);
+	var q =this.scrollTop;
+	if(q<10){
+		$fixed.css("top","60px");
+	}else{
+		$fixed.css("top","0px");
+	}*/
+	})
+	
+	
+	
+	
+	
+})
+				
+			
+		</script>
+		
+	</body>
+</html>
