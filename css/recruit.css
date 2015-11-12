@@ -44,8 +44,15 @@ a{
 	height: 450px;
 	
 	margin:0 auto;
-	background-image: url("../images/recruit1.png");
+	
+	}
+	.recruit_topbody{
+		width: 1280px;
+		height: 450px;
+		margin:0 auto;
+		background-image: url("../images/recruit1.png");
 	background-repeat: no-repeat;
+
 	}
 	.recruittitle1{
 		display: block;
