@@ -88,7 +88,7 @@ var PLayout = {
 		'<a href="###" >'+'销售网点'+'</a>'+
 		'</li>'+	
 		'<li>'+
-		'<a href="###" >'+'加盟流程'+'</a>'+
+		'<a href="join.html" >'+'加盟流程'+'</a>'+
 		'</li>'+
 		'<li>'+
 		'<a href="###" >'+'经销商登录'+'</a>'+
@@ -265,7 +265,7 @@ var PLayout = {
 			'<dt>服务</dt>'+
 			'<dd><a href="###">售后体系</a></dd>'+
 		'<dd><a href="###">销售网点</a></dd>'+
-		'<dd><a href="###">加盟流程</a></dd>'+
+		'<dd><a href="join.html">加盟流程</a></dd>'+
 		'<dd><a href="###">经销商登录</a></dd>'+
 			'</dl>'+
 		'</li>'+
@@ -285,8 +285,8 @@ var PLayout = {
 		'<dd><a href="###">企业文化</a></dd>'+
 		'<dd><a href="###">荣誉</a></dd>'+
 		'<dd><a href="###">视频</a></dd>'+
-		'<dd><a href="###">人才招聘</a></dd>'+
-		'<dd><a href="###">联系我们</a></dd>'+
+		'<dd><a href="recruit.html">人才招聘</a></dd>'+
+		'<dd><a href="contact.html">联系我们</a></dd>'+
 		'<dd><a href="###">下载</a></dd>'+
 		'<dd><a href="http://www.aimatech.net/">英文版</a></dd>'+
 				'</dl>'+
@@ -300,8 +300,8 @@ var PLayout = {
 		'<li>'+
 			'<a href= "index.html">网站首页</a>'+
 		'</li>'+
-		'<li><a href= "###">人才招聘</a></li>'+
-		'<li><a href= "###">联系我们</a></li>'+
+		'<li><a href= "join.html">人才招聘</a></li>'+
+		'<li><a href= "contact.html">联系我们</a></li>'+
 		'<li><a href= "###">网站地图</a></li>'+
 			'</ul>'+					
 		'</div>'+
