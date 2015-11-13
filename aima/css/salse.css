@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+.salse_left{
+	font-size:24px; 
+	font-weight:bold;
+	line-height:80px;
+}
+.salse_right{
+	font-size:14px;
+	font-weight:bold;
+	line-height:80px;
+}
+.salse_right span{
+	padding-left:15px;
+}
+div.salse_top{
+	height:666px;
+	background:url(../images/salesservice/sale1.png) center no-repeat;
+}
+div.salse_content{
+	background:#f6f6f6;
+}
+.top_p{
+	width:100%;
+	padding-top:100px;
+	font-size:36px;
+	font-weight:bold;
+	padding-bottom:10px;
+	border-bottom:1px solid #c5c5c5;
+	padding-left:50px;
+}
+div.sales_content{
+}
+div.sales_content{
+	padding-left:50px;
+}
+.scontent_title{
+	font-size:24px;
+	padding-top:10px;
+	padding-bottom:20px;
+	font-weight:bold;
+}
+.sales48{
+	font-size:36px; font-weight:bold;
+	padding-bottom:20px;
+}
+.salse12{
+	font-size:16px;
+	font-weight:bold;
+	line-height:25px;
+}
+.middle_title{
+	padding-top:50px; 
+	font-size:30px;
+	padding-left:50px;
+	font-weight:bold;
+	padding-bottom:20px;
+}
+.middle_title span{
+	color:#9dc815;
+}
+
+div.salesimg{
+	padding-left:50px;
+}
+.content_bottom{
+	padding-top:20px;
+	margin-top:30px;
+	border-top:1px solid #c5c5c5;
+	padding-left:50px;
+	font-size:12px; font-weight:bold;
+}
+.content_bottom span{
+	padding-right:15px;
+	padding-left:10px;
+	
+}
+.content_bottom span.cb_log{
+	display:block;
+	float:left;
+	width:82px;
+	height:30px;
+}
+
+
+
+
+

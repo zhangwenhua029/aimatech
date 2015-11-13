@@ -1,0 +1,23 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta charset="UTF-8">		
+		<title>爱玛电动车官方网站</title>
+		<link rel="shortcut icon" href="//g.alicdn.com/mui/global/1.2.35/file/favicon.ico" type="image/x-icon">
+		<link rel= "stylesheet" href = "css/header.css" />
+		
+	</head>
+	<body>
+		<div id="header">
+			<div id ="containter">
+				<div class ="head_left">
+					<img src="images/logo/11.jpg" width="178px" height="16px" />aaa
+				</div>
+				<div class ="head_middle">
+				</div>
+				<div class ="head_right">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
