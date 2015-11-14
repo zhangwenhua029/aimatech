@@ -1,0 +1,200 @@
+@CHARSET "UTF-8";
+.other_left{
+	font-size:24px; font-weight:bold;
+	line-height:80px;
+}
+.honor_top{
+	height:730px;
+	background-color:#f6f6f6;
+	background-image:url("../images/other/rongyu.png");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.honor_content{
+	background-color:#f6f6f6;
+}
+.honor_content div.title{
+	font-size:36px; line-height:40px;
+	font-weight:bold;
+	padding-bottom:50px;
+}
+.honoer_cont{
+	border-top:1px solid #c5c5c5;
+	padding-left:145px;
+	padding-top:15px; 
+	padding-bottom:15px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.honoer_cont ul{
+	float:left;width:500px;
+	padding-left:100px;
+}
+.honoer_cont span{
+	display:block;
+	float:left;
+}
+.content_bottom{
+	padding-top:20px;
+	margin-top:30px;
+	border-top:1px solid #c5c5c5;
+	padding-left:50px;
+	font-size:12px; font-weight:bold;
+}
+.content_bottom span{
+	padding-right:15px;
+	padding-left:10px;
+	
+}
+.content_bottom span.cb_log{
+	display:block;
+	float:left;
+	width:82px;
+	height:30px;
+}
+.honor_bottom{
+	padding-top:30px;
+}
+
+
+
+/*histoy*/
+.history_top{
+	height:670px;
+	background-image:url("../images/other/fa.png");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.history_content{
+	background-color:#f6f6f6;
+	padding-top:50px;
+	
+}
+.history_content div.wrap_left{
+	width:50%; 
+}
+.history_content div.wrap_right{
+	width:50%; 
+}
+.history_content dl{
+	widht:500px;
+	padding-bottom:20px;
+}
+.history_content dl dt{
+	font-size:44px;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+.history_content dl dd{
+	font-size:16px;
+	font-weight:bold;
+	line-height:30px;
+}
+.history_content div.wrap_right dl{
+	float:left;
+	padding-left:40px;
+}
+
+
+
+
+
+/*招聘*/
+.recruit_left{
+	font-size:24px;
+	font-weight:bold;
+	line-height:80px;
+}
+.recruit_right{
+	font-size:14px;
+	font-weight:bold;
+	line-height:80px;
+}
+.recruit_right span{
+	padding-left:30px;
+}
+.recruit_top{
+	height:500px;
+	background-image:url("../images/other/zhaopin.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:#f6f6f6;
+}
+.recruit_content{
+	background-color:#f6f6f6;
+	padding-bottom:20px;
+}
+
+.recruit_search span{
+	font-size:18px; font-weight:bold;
+	padding-right:20px;
+}
+.recruit_search input{
+	width:800px; height:36px; 
+	border-radius:3px;
+	font-size:18px; font-weight:bold;
+	padding-left:15px;
+	border:1px solid #c5c5c5;
+}
+.recruit_search button{
+	height:36px; width:80px;
+	border:1px solid #c5c5c5;
+	border-radius:3px;
+	background:none;
+}
+.jobs{
+	font-size:16px; font-weight:bold;
+	margin-top:20px;
+}
+.jobs span{
+	display:block;
+	float:left;
+}
+.jobs ul{
+	float:left;
+	padding-left:40px;
+	width:900px;
+}
+.jobs ul li{
+	float:left;
+	padding:0 10px;
+}
+.recruit_table{
+	background:#fff;
+	border:1px solid #c5c5c5;
+	width:100%;
+	margin:50px 0;
+
+}
+.recruit_table a{
+	display:block;
+	color:#313133;
+}
+.recruit_table a:hover{
+	background-color:#f2f2f2; 
+}
+.recruit_table a:hover i{
+	display:block; 
+}
+
+.recruit_table a{
+	margin:5px 10px;
+	padding-left:60px;
+	padding-right:30px;
+	border-bottom:1px solid #c5c5c5;
+}
+.recruit_table a span{
+	width:23%;float:left;
+	padding-left:10px;
+	font-size:16px;
+	font-weight:bold;
+	line-height:40px;
+}
+.recruit_table a span i{
+	width:23px; height:20px;
+	background-image:url(../images/other/recruit.png);
+	margin-right:20px;
+	margin-top:7px;
+	display:none;
+}

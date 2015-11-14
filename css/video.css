@@ -1,0 +1,186 @@
+@CHARSET "UTF-8";
+div.video_left{
+	line-height:80px; font-size:24px;
+	font-weight:bold;
+}
+div.video{
+	height:880px;
+	background-color:#f2f2f2;
+}
+div.video_top{
+	padding-top:150px;
+	width:932px;
+	height:524px;
+	margin:auto;
+	
+}
+div.videotitle{
+	width:100%; text-align:center;
+	font-size:18px;
+	padding-top:50px;
+}
+div.videotitle p{
+	font-size:48px;
+	padding-bottom:10px;
+}
+/*video特性*/
+.video-postion{
+	background-repeat:no-repeat;	
+	height:720px;
+}
+div.video1{	
+	background-image:url(../images/video/9.png);	
+	background-position:right;
+}
+div.video2{
+	background-image:url(../images/video/5.png);
+	background-position:right;	
+}
+div.video3{
+	background-image:url(../images/video/6.png);
+	background-position:left;	
+}
+div.video4{
+	background-image:url(../images/video/2.png);
+	background-position:right;	
+}
+div.video5{
+	background-image:url(../images/video/3.png);
+	background-position:center;	
+	text-align:center;
+	background-color:#f9f9f9;
+}
+div.video6{
+	background-image:url(../images/video/1.png);
+	background-position:right;	
+}
+div.video7{
+	background-image:url(../images/video/4.png);
+	background-position:left;	
+}
+div.video5 div.video_title{
+	padding-top:50px;
+}
+.videocolor1{
+	background-color:#f2f2f2;
+}
+.videocolor2{
+	background-color:#f6f6f6;
+}
+.video_title{
+	font-size:48px; 
+	font-weight:bold;
+	line-height:70px;
+}
+
+.videocontent{
+	font-size:21px;
+	font-weight:bold;
+	line-height:30px;
+}
+.videocontent_width{
+	width:375px;
+	padding-top:150px;
+}
+
+
+
+
+/*社区评论*/
+div.comments{
+	width:100%;
+	background-color:#e8e8e8;
+	padding-bottom:100px;
+}
+p.comments{
+	padding-top:90px;
+	height:40px;
+}
+div.add_comments{
+ height:302px; 	
+}
+.border_bottom{
+	width:100%;
+	border-bottom:1px solid #bbb;
+	padding:0 40px;
+}
+div.show_comments{
+	height:115px;
+	
+}
+a.comments_logo{
+	display:block;
+	width:50px; height:27px;
+	background-image: url("../images/header/icon.png");
+  background-position: -27px -26px;	
+}
+a.comments_logo:hover{
+	background-position:-27px 0;
+}
+.commet_font{
+	font-size:14px;
+	font-weight:bold;
+}
+p.top_comment{
+	line-height:50px;
+}
+div.add_comments textarea{
+	width:1100px; height:142px;background:none;
+	border:1px solid #606060;
+	border-radius:10px;
+	line-height:30px;
+	word-break:break-all;
+	padding:10px;	
+}
+div.add_comments button{
+	float:right;
+	width:99px; height:30px;
+	background:none;
+	border:1px solid #606060;
+	border-radius:10px;
+	margin-top:5px;
+	text-align:30px;
+}
+span.showimg{
+	width:48px; height:48px;
+	display:block;float:left;
+	margin-top:30px; margin-right:26px;
+	background-image:url(../images/video/7.png);
+}
+.showco_content{
+	width:680px;
+	float:left;margin-top:30px;
+}
+div.comments_right{
+	margin-top:30px;
+	height:48px;
+	line-height:48px;
+}
+p.submitter{
+	font-size:12px;
+	font-weight:bold;
+	padding-bottom:15px;
+}
+p.submitter span.submitter{
+	padding-right:10px;
+}
+div.comments_right span{
+	padding-right:10px;
+}
+div.comments_right button{
+	background:none;
+	border:none;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
