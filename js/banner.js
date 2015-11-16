@@ -6,12 +6,12 @@
 	var nIndex = $(this).index();
 	$(".cli").eq(nIndex).fadeIn().siblings(".cli").fadeOut();
 	lIndex = nIndex;
-	clearInterval(Time);//è¿™æ˜¯ä»€ä¹ˆæ„æ€ï¼Ÿ
+	clearInterval(Time);//ÕâÊÇÊ²Ã´ÒâË¼£¿
 	auto();
     })
    function auto(){
-		Time = setInterval(function(){//æ¯éš”å¤šé•¿æ—¶é—´æ‰§è¡Œäº‹ä»¶ã€‚
-			(lIndex<2)?(lIndex++):(lIndex=0);//å¦‚æœlIndex<3åˆ™åŠ 1ï¼Œå¦åˆ™ä¸º0ï¼›
+		Time = setInterval(function(){//Ã¿¸ô¶à³¤Ê±¼äÖ´ĞĞÊÂ¼ş¡£
+			(lIndex<2)?(lIndex++):(lIndex=0);//Èç¹ûlIndex<3Ôò¼Ó1£¬·ñÔòÎª0£»
 			$(".libt ul li").eq(lIndex).addClass("hover").siblings().removeClass("hover");
 			$(".cli").eq(lIndex).fadeIn(2000).siblings(".cli").fadeOut(2000);
 			},5000);
@@ -35,20 +35,21 @@
 		$libt.click(function(){
 			$(this).addClass("hover").siblings().removeClass("hover");
 			var nIndex = $(this).index();
-			$cli.eq(nIndex).slideUp().siblings(".cli").slideDown();			
+			$cli.eq(nIndex).fadeIn().siblings(".cli").fadeOut();			
 			lIndex = nIndex;
-			clearInterval(Time);//è¿™æ˜¯ä»€ä¹ˆæ„æ€ï¼Ÿ
+			clearInterval(Time);//ÕâÊÇÊ²Ã´ÒâË¼£¿
 			auto();
 	    })
 	    function auto(){
-			Time = setInterval(function(){//æ¯éš”å¤šé•¿æ—¶é—´æ‰§è¡Œäº‹ä»¶ã€‚
-				(lIndex<2)?(lIndex++):(lIndex=0);//å¦‚æœlIndex<3åˆ™åŠ 1ï¼Œå¦åˆ™ä¸º0ï¼›
+			Time = setInterval(function(){//Ã¿¸ô¶à³¤Ê±¼äÖ´ĞĞÊÂ¼ş¡£
+				(lIndex<2)?(lIndex++):(lIndex=0);//Èç¹ûlIndex<3Ôò¼Ó1£¬·ñÔòÎª0£»
 				$libt.eq(lIndex).addClass("hover").siblings().removeClass("hover");
-				$cli.eq(lIndex).slideDown(2000).siblings(".cli").slideUp(2000);
+				$cli.eq(lIndex).fadeIn(2000).siblings(".cli").fadeOut(2000);
 				},5000);
 			};
 
 			auto();
+			
 	}
 	
 })(jQuery);

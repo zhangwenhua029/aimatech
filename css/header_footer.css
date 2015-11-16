@@ -3,7 +3,7 @@ div.fixed{
 	height:80px;
 	border-bottom:1px solid #666;
 	position:fixed;
-	/*top:60px;*/
+	top:60px;
 	z-index:99;
 	background:url(../images/fixed.png) repeat;
 }
@@ -328,3 +328,29 @@ div.copyright ul li{
 div.copyright p{
 	line-height:25px;
 }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

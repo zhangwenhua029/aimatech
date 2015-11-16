@@ -85,13 +85,13 @@ var PLayout = {
 		'<a href = "saleservice.html" >'+'售后体系'+'</a>'+
 		'</li>'+
 		'<li>'+
-		'<a href="sales.html" >'+'销售网点'+'</a>'+
+		'<a href="###" >'+'销售网点'+'</a>'+
 		'</li>'+	
 		'<li>'+
-		'<a href="join.html" >'+'加盟流程'+'</a>'+
+		'<a href="###" >'+'加盟流程'+'</a>'+
 		'</li>'+
 		'<li>'+
-		'<a href="http://www.aimatech.com/admin/privilege.php?act=login" >'+'经销商登录'+'</a>'+
+		'<a href="###" >'+'经销商登录'+'</a>'+
 		'</li>'+						
 		'</ul>'+
 		'<div class="clear">'+'</div>'+
@@ -140,13 +140,13 @@ var PLayout = {
 		'<div id ="wrap" class= "heada_postion hovergreen" >'+
 		'<ul class="headpo_content" >'+
 		'<li>'+								
-		'<a href = "recruitment.html" >'+'人才招聘'+'</a>'+
+		'<a href = "###" >'+'媒体聚焦'+'</a>'+
 		'</li>'+
 		'<li>'+
-		'<a href="http://bbs.aimatech.com/forum.php" >'+'爱玛话题'+'</a>'+
+		'<a href="###" >'+'爱玛话题'+'</a>'+
 		'</li>'+	
 		'<li>'+
-		'<a href="public welfare.html" >'+'特别活动'+'</a>'+
+		'<a href="###" >'+'特别活动'+'</a>'+
 		'</li>'+
 		'<li>'+
 		'<a href="video.html" >'+'视频欣赏'+'</a>'+
@@ -263,8 +263,8 @@ var PLayout = {
 		'<li>'+
 			'<dl>'+
 			'<dt>服务</dt>'+
-			'<dd><a href="saleservice.html">售后体系</a></dd>'+
-		'<dd><a href="sales.html">销售网点</a></dd>'+
+			'<dd><a href="###">售后体系</a></dd>'+
+		'<dd><a href="###">销售网点</a></dd>'+
 		'<dd><a href="###">加盟流程</a></dd>'+
 		'<dd><a href="###">经销商登录</a></dd>'+
 			'</dl>'+
@@ -328,7 +328,6 @@ $(function(){
 	
 	
 
-	/*页面导航点击效果*/
 	var $downlist= $(".header li.hm_nav");
 	var Time;			
 	$downlist.each(function(){	
@@ -349,7 +348,6 @@ $(function(){
 		)
 		
 	})
-	/*页面点击搜索效果*/
 	$('.heada_postion').mouseover(function(){
 		clearTimeout(Time);
 	})
@@ -368,38 +366,7 @@ $(function(){
 		$this.hide();
 		$(".search_header").fadeOut("slow");
 		$("body").removeClass("hidden");
-	})	
-	/*顶部微信二维码出现*/
-	var $fun_model= $(".footer_model");
-	$fun_model.mouseover(function(){
-		$this = $(this);
-		$this.addClass("funhover");
-		$this.children("span.footer_icon").addClass("footer_icohover");
-		$this.children("span.weixinerwei").show();			
-	})				
-	$fun_model.mouseout(function(){
-		$this = $(this);
-		$this.removeClass("funhover");
-		$this.children("span.footer_icon").removeClass("footer_icohover");
-		$this.children("span.weixinerwei").hide();
-	})	
-	$(".banner_wrap").clickm();
-	$(".active").clickm();
-	/*鼠标滚轮事件*/
-	$("body").bind('mousewheel',function(event){
-		var wheeldelta = event.originalEvent.wheelDelta;
-		var $fixed=$("div.fixed");
-		var $header=$("div.header");
-		if(wheeldelta<0){
-			$fixed.show();
-			$fixed.css("top","0px");
-			$header.removeClass("fix");			
-		}else{
-			$header.addClass("fix");
-		}
-		
 	})
-	/*当分辨率大于一定程度时，不出现横向滚动条*/
 	
 	
 	

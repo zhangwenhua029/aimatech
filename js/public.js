@@ -1,5 +1,5 @@
 $(function(){
-	//footerÂ¿ÂªÃŠÂ¼
+	//footer¿ªÊ¼
 	var $fun_model= $(".footer_model");
 	$fun_model.mouseover(function(){
 		$this = $(this);
@@ -15,7 +15,7 @@ $(function(){
 	})	
 	$(".banner_wrap").clickm();
 	$(".active").clickm();
-	//footerÂ½Ã¡ÃŠÃ¸
+	//footer½áÊø
 	
 	
 	
